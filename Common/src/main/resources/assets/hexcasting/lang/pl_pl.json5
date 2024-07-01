@@ -728,7 +728,7 @@
         conjure_light: "Powołaj Światło",
         bonemeal: "Rozrośnij",
         edify: "Oświeć Sadzonkę",
-        colorize: "Uwewnętrznij Barwę",
+        colorize: "Uwewnętrznij Maść",
 
         "sentinel/": {
           create: "Przywołaj Czatownika",
@@ -847,7 +847,7 @@
       entity: "Byt",
       list: "Spis",
       pattern: "Wzór",
-      garbage: "Śmierć",
+      garbage: "Śmieć",
       vec3: "Wektor",
     },
 
@@ -997,7 +997,7 @@
     // === Patchi stuff! ===
 
     
-    landing: "Zdaje się, iż mi wyświecił się nowotny sposób rzemiosła czarów, w których poniektóry eryguje na sześciokątnej siatce wzory nieoswojone i osobliwe.\
+    landing: "Zdaje się, iż mi wyświecił się nowotny sposób rzemiosła czarów, w których poniektóry odrysowuje na sześciokątnej siatce wzory nieoswojone i osobliwe.\
       Zniewala mnie to. Ustanowiłem jąć dziennik swych zważeń i znalezisk.\
       $(br2)$(l:https://forum.petra-k.at/index.php)Forum Link/$",
     
@@ -1020,7 +1020,7 @@
       
       greatwork: {
         "": "Wielka Praca",
-        desc: "Baczyłem... tak wiele. Doznałem... unicestwienia i poterania oraz nazad wskrzeszenia. \
+        desc: "Zoczyłem... tak wiele. Doznałem... unicestwienia i poterania oraz nazad wskrzeszenia. \
           Baczyłem cząstki świata wznoszące okrzyk, gdy były odwracane, obalane i poniżane do mocności. \
           Baczyłem, baczyłem, baczy$(k)get stick bugged lmao/$",
         // alwinfy you think you're so funny
@@ -1084,7 +1084,7 @@
       // why is this called "hexcasting"?
       hexcasting: "Przedmioty Czarujące",
       phials: "Gąsiory Rozmysłu",
-      pigments: "Barwy",
+      pigments: "Maści",
       
       edified: "Oświecone Drzewa",
       decoration: "Bloki Ozdobne",
@@ -1155,9 +1155,9 @@
     
     page: {
       media: {
-        "1": "_Rozmysł jest rodzajem zwierzchnej myślowej dzielności. Wszakie żyjące wydają nikczemne wielkości _rozmysłu w czasie myślenia o czymkolwiek; po przebraniu się myśli rozmysł jest wyzwalany do środowiska.$(br2)Czarnoksięstwo te jest w cale o treści kneziowania nad _rozmysłem.",
+        "1": "_Rozmysł jest rodzajem zwierzchnej myślowej dzielności. Wszelkie żyjące wydają nikczemne wielkości _rozmysłu w czasie myślenia o czymkolwiek; po przebraniu się myśli rozmysł jest wyzwalany do środowiska.$(br2)Czarownictwo to jest w cale o treści kneziowania nad _rozmysłem.",
         "2": "_Rozmysł doła odciskać piętno na insze pasma rozmysłu-- siła i odmiana wpływu może być sprawowana poprzez wyrażenie _rozmysłu jako wzory.$(p)Uczeni czarownictwa mieli użytek ze zgromadzonego _rozmysłu na granicy prętu: wijąc nim po wietrze w ścisłych układach, zdołali wykorzystać dostatek _rozmysłu z nieskąpą należytością, iżby promieniować na samą rzecz świata, sposobem _Czaru.",
-        "3": "Biada, iże zgoła samowiedne jestestwo (niczym ja, przypuszczalnie) nie dostarczy wysoko _rozmysłu. Byłoby nader nieżyciowe próbować spędzić włościwą moc umysłową do rzucania Czarów.$(br2)Podania głoszą wszelako, że złoża występują podziemne gdzie ześrodkowuje się _rozmysł, rośnie na postać kryształu.$(p)Gdyby jeno możebne było napotkać jedno z ów złóż...",
+        "3": "Biada, iże zgoła samowiedne jestestwo (niczym ja, przypuszczalnie) nie dostarczy wysoko _rozmysłu. Byłoby nader nieżyciowe próbować spędzić włościwą moc umysłową do rzucania Czarów.$(br2)Podania głoszą wszelako, że złoża występują podziemne gdzie ześrodkowuje się _rozmysł, rośnie na postać kryształu.$(p)Gdyby jeno możebne było napotkać jedno z owych złóż...",
       },
 
       geodes: {
