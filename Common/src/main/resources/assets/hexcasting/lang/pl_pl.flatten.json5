@@ -59,22 +59,22 @@
     sub_sandwich: "Kromka z Ametystem",
 
     dye_colorizer_: {
-      white: "Biała Maść",
-      orange: "Pomarańczowa Maść",
-      magenta: "Karmazynowa Maść",
-      light_blue: "Jasnoniebieska Maść",
-      yellow: "Żółta Maść",
-      lime: "Jasnozielona Maść",
-      pink: "Różowa Maść",
-      gray: "Szara Maść",
-      light_gray: "Jasnoszara Maść",
-      cyan: "Błękitna Maść",
-      purple: "Fioletowa Maść",
-      blue: "Niebieska Maść",
-      brown: "Brązowa Maść",
-      green: "Zielona Maść",
-      red: "Czerwona Maść",
-      black: "Czarna Maść",
+      white: "Biała Krasa",
+      orange: "Pomarańczowa Krasa",
+      magenta: "Karmazynowa Krasa",
+      light_blue: "Jasnoniebieska Krasa",
+      yellow: "Żółta Krasa",
+      lime: "Jasnozielona Krasa",
+      pink: "Różowa Krasa",
+      gray: "Szara Krasa",
+      light_gray: "Jasnoszara Krasa",
+      cyan: "Błękitna Krasa",
+      purple: "Fioletowa Krasa",
+      blue: "Niebieska Krasa",
+      brown: "Brązowa Krasa",
+      green: "Zielona Krasa",
+      red: "Czerwona Krasa",
+      black: "Czarna Krasa",
     },
 
     pride_colorizer_: {
@@ -96,8 +96,8 @@
       transgender: "Transgender Pigment",
     },
 
-    uuid_colorizer: "Maść Lśnienia Duszy",
-    default_colorizer: "Swobodna Maść",
+    uuid_colorizer: "Krasa Lśnienia Duszy",
+    default_colorizer: "Nijaka Krasa",
 
     creative_unlocker: {
       "": "Sześcian Rozmysłu",
@@ -465,7 +465,7 @@
 
       abacus: {
         "": "%d",
-        reset: "Zeruj",
+        reset: "Zerowanie",
         "reset.nice": "nice",
       },
 
@@ -574,7 +574,7 @@
             nx: "Odzwierciedlenie Wektorowe -X",
             ny: "Odzwierciedlenie Wektorowe -Y",
             nz: "Odzwierciedlenie Wektorowe -Z",
-            "0": "Odzwierciedlenie Wektorowe Zero",
+            "0": "Odzwierciedlenie Wektorowe Zera",
           },
 
           "double/": {
@@ -612,7 +612,7 @@
         index_of: "Wyparcie Namiernika",
         remove_from: "Wyparcie Wycinacza",
         slice: "Wzbudzenie Wybierane",
-        replace: "Wzbudzenie Chirurgiczne",
+        replace: "Wzbudzenie Chirurga",
         construct: "Wyparcie Mówcy",
         deconstruct: "Rozkład Mócy",
         
@@ -728,7 +728,7 @@
         conjure_light: "Powołaj Światło",
         bonemeal: "Rozrośnij",
         edify: "Oświeć Sadzonkę",
-        colorize: "Uwewnętrznij Maść",
+        colorize: "Uwewnętrznij Krasę",
 
         "sentinel/": {
           create: "Przywołaj Czatownika",
@@ -971,7 +971,7 @@
         eraseable: "oczyszczalny przedmiot",
         bottle: "szklana butelka",
         rechargable: "przedmiot do ponownego naładowania",
-        colorizer: "maść",
+        colorizer: "krasa",
         variant: "przedmiot z odmianami",
       },
 
@@ -1005,7 +1005,7 @@
       basics: {
         "": "Imanie się",
         desc: "Trudniący się tym rzemiosłem mieciliby tzw. _Czary poprzez kreślenie przedziwnych wzorów na tchach, dzierżąc $(l:items/staff)$(item)Kostur/$ -- \
-          lub wytwarzaliby $(l:items/hexcasting)$(item)władne zaklęte uczyny/$, iżby wyręczały ich w owym klęciu. \
+          lub wytwarzaliby $(l:items/hexcasting)$(item)władne zaklęte obmioty/$, iżby wyręczały ich w owym klęciu. \
           Jakże mógłbym tożsamo wykonać?",
       },
       casting: {
@@ -1015,7 +1015,7 @@
       },
       items: {
         "": "Przedmioty",
-        desc: "Obracam ten dział na rozwieszczenie tajnych i guślarskich rzeczy stworzonych, z którymi mógłbych napotkać się u swoich dociekań.",
+        desc: "Obracam ten dział na rozwieszczenie tajnych i guślarskich rzeczy stworzonych, z którymi mógłbych napotkać się podczas swoich dociekań.",
       },
       
       greatwork: {
@@ -1028,7 +1028,7 @@
 
       lore: {
         "": "Przekazy",
-        desc: "Ujawiłem poniektóre listy i podmioty tykające się jeno pośrednio mej sztuce. \
+        desc: "Ujawiłem poniektóre listy i podmioty tykające się jeno pośrednio mej sztuki. \
           Atoli snuję domysły, że będę na siłach, by zmiarkować świata przeszłych zdarzeń drobinę z onych. Daj mi postrzec...",
       },
 
@@ -1084,7 +1084,7 @@
       // why is this called "hexcasting"?
       hexcasting: "Przedmioty Czarujące",
       phials: "Gąsiory Rozmysłu",
-      pigments: "Maści",
+      pigments: "Krasidła",
       
       edified: "Oświecone Drzewa",
       decoration: "Bloki Ozdobne",
@@ -1157,11 +1157,11 @@
       media: {
         "1": "_Rozmysł jest rodzajem zwierzchnej myślowej dzielności. Wszelkie żyjące wydają nikczemne wielkości _rozmysłu w czasie myślenia o czymkolwiek; po przebraniu się myśli rozmysł jest wyzwalany do środowiska.$(br2)Czarownictwo to jest w cale o treści kneziowania nad _rozmysłem.",
         "2": "_Rozmysł doła odciskać piętno na insze pasma rozmysłu-- siła i odmiana wpływu może być sprawowana poprzez wyrażenie _rozmysłu jako wzory.$(p)Uczeni czarownictwa mieli użytek ze zgromadzonego _rozmysłu na granicy prętu: wijąc nim po wietrze w ścisłych układach, zdołali wykorzystać dostatek _rozmysłu z nieskąpą należytością, iżby promieniować na samą rzecz świata, sposobem _Czaru.",
-        "3": "Biada, iże zgoła samowiedne jestestwo (niczym ja, przypuszczalnie) nie dostarczy wysoko _rozmysłu. Byłoby nader nieżyciowe próbować spędzić włościwą moc umysłową do rzucania Czarów.$(br2)Podania głoszą wszelako, że złoża występują podziemne gdzie ześrodkowuje się _rozmysł, rośnie na postać kryształu.$(p)Gdyby jeno możebne było napotkać jedno z owych złóż...",
+        "3": "Biada, iże zgoła samowiedne jestestwo (niczym ja, przypuszczalnie) nie dostarczy wysoko _rozmysłu. Byłoby nader nieżyciowe próbować spędzić włościwą mi moc umysłową do rzucania Czarów.$(br2)Podania głoszą wszelako, że złoża występują podziemne gdzie ześrodkowuje się _rozmysł, rośnie na postać kryształu.$(p)Gdyby jeno możebne było napotkać jedno z owych złóż...",
       },
 
       geodes: {
-        "1": "Aha! While mining deep underground, I found an enormous geode resonating with energy-- energy which pressed against my skull and my thoughts. And now, I hold that pressure in my hand, in solid form. That proves it. This $(italic)must/$ be the place spoken about in legends where _media accumulates.$(br2)These $(l:items/amethyst)$(item)amethyst crystals/$ must be a $(l:items/amethyst)$(thing)convenient, solidified form of _Media/$.",
+        "1": "Aha! Gdyż jeśm kopał wem przepastnych bezdeniach podziemnych nalazł niezmierną geodę współdrgającą gwałtem, pchającym w mą czaszkę i myśli. Otóż ninie dzierżę owe parcie, co przybrało istotę trwałą, w prawicy. To temu przyświadcza. To $(italic)musi/$ być one miejsce zdawane w podaniach, kędy _rozmysł się zgromadza.$(br2)Dane $(l:items/amethyst)$(item)kryształy ametystowe/$ są pewnym $(l:items/amethyst)$(thing)dogodnym, zestalonym złożeniem _Rozmysłu/$.",
         "2": "It appears that, in addition to the $(l:items/amethyst)$(item)Amethyst Shards/$ I have seen in the past, these crystals can also drop bits of powdered $(l:items/amethyst)$(item)Amethyst Dust/$, as well as these $(l:items/amethyst)$(item)Charged Amethyst Crystals/$. It looks like I'll have a better chance of finding the $(l:items/amethyst)$(item)Charged Amethyst Crystals/$ by using a Fortune pickaxe.",
         "3": "As I take the beauty of the crystal in, I can feel connections flashing wildly in my mind. It's like the _media in the air is entering me, empowering me, elucidating me... It feels wonderful.$(br2)Finally, my study into the arcane is starting to make some sense!$(p)Let me reread those old legends again, now that I know what I'm looking at.",
       },
