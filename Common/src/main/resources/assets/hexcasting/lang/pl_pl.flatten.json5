@@ -1010,7 +1010,7 @@
       },
       casting: {
         "": "Hex Casting",
-        desc: "Jąłem był wyrozumieć jakeż starożytni ciepali swe _Czary! Jest to kęs zawikłane, \
+        desc: "Jąłem był wyrozumieć jakże starożytni ciepali swe _Czary! Jest to kęs zawikłane, \
           lubom pewien, że dam radę osiąc to rozumem. Zobaczmy...",
       },
       items: {
@@ -1161,9 +1161,9 @@
       },
 
       geodes: {
-        "1": "Aha! Gdyż jeśm kopał wem przepastnych bezdeniach podziemnych nalazł niezmierną geodę współdrgającą gwałtem, pchającym w mą czaszkę i myśli. Otóż ninie dzierżę owe parcie, co przybrało istotę trwałą, w prawicy. To temu przyświadcza. To $(italic)musi/$ być one miejsce zdawane w podaniach, kędy _rozmysł się zgromadza.$(br2)Dane $(l:items/amethyst)$(item)kryształy ametystowe/$ są pewnym $(l:items/amethyst)$(thing)dogodnym, zestalonym złożeniem _Rozmysłu/$.",
-        "2": "It appears that, in addition to the $(l:items/amethyst)$(item)Amethyst Shards/$ I have seen in the past, these crystals can also drop bits of powdered $(l:items/amethyst)$(item)Amethyst Dust/$, as well as these $(l:items/amethyst)$(item)Charged Amethyst Crystals/$. It looks like I'll have a better chance of finding the $(l:items/amethyst)$(item)Charged Amethyst Crystals/$ by using a Fortune pickaxe.",
-        "3": "As I take the beauty of the crystal in, I can feel connections flashing wildly in my mind. It's like the _media in the air is entering me, empowering me, elucidating me... It feels wonderful.$(br2)Finally, my study into the arcane is starting to make some sense!$(p)Let me reread those old legends again, now that I know what I'm looking at.",
+        "1": "Aha! Gdyż jeśm kopał wem przepastnych bezdeniach podziemnych nalazł niezmierną geodę współdrgającą gwałtem, pchającym w mą czaszkę i myśli. Otóż ninie dzierżę owe parcie, co przybrało istotę litą, w prawicy. To temu przyświadcza. To $(italic)musi/$ być one miejsce zdawane w podaniach, kędy _rozmysł się zgromadza.$(br2)Dane $(l:items/amethyst)$(item)kryształy ametystowe/$ są pewnym $(l:items/amethyst)$(thing)dogodnym, zestalonym złożeniem _Rozmysłu/$.",
+        "2": "Snadź pospół z $(l:items/amethyst)$(item)Odłamkami ametystu/$, wcześniej zważonymi, owe kryształy upuszczają sztuki sproszkowanego $(l:items/amethyst)$(item)Ametystowego Pyłu/$ zarówno z tymi $(l:items/amethyst)$(item)Naładowanymi Ametystowymi Kryształami/$. Pono będzie lepsza dola w dobiciu się $(l:items/amethyst)$(item)Naładowanych Ametystowych Kryształów/$użytkując oskard zaklęty Szczęściem.",
+        "3": "W czasie jęcia uroku kryształu, czuję, jak w mojej głowie rozgorzale migają połączenia. Niby _rozmysł drogą śreżogi zazierał do mnie, ukrzepiał, rozjaśniał mię... Wspaniałe uczucie.$(br2)Moje wnikania w tajniki spełniają raz mój umysł!$(p)Czas ponownie przeczcić te podania starożytnych, teraz, jak trzymam w myśli co pomnąć.",
       },
 
       couldnt_cast: {
