@@ -8,8 +8,10 @@ import at.petrak.hexcasting.api.casting.getVec3
 import at.petrak.hexcasting.api.casting.iota.Iota
 import at.petrak.hexcasting.api.misc.MediaConstants
 import at.petrak.hexcasting.api.mod.HexConfig
+import at.petrak.hexcasting.api.mod.HexTags
 import at.petrak.hexcasting.xplat.IXplatAbstractions
 import net.minecraft.core.BlockPos
+import net.minecraft.server.level.ServerPlayer
 import net.minecraft.world.phys.Vec3
 
 object OpBreakBlock : SpellAction {
@@ -17,16 +19,18 @@ object OpBreakBlock : SpellAction {
         get() = 1
 
     override fun execute(
-            args: List<Iota>,
-            env: CastingEnvironment
+        args: List<Iota>,
+        env: CastingEnvironment
     ): SpellAction.Result {
         val vecPos = args.getVec3(0, argc)
         val pos = BlockPos.containing(vecPos)
         env.assertPosInRangeForEditing(pos)
 
+        val isCheap = env.world.getBlockState(pos).`is`(HexTags.Blocks.CHEAP_TO_BREAK_BLOCK)
+
         return SpellAction.Result(
             Spell(pos),
-            MediaConstants.DUST_UNIT / 8,
+            if (isCheap) MediaConstants.DUST_UNIT / 100 else MediaConstants.DUST_UNIT / 8,
             listOf(ParticleSpray.burst(Vec3.atCenterOf(pos), 1.0))
         )
     }
@@ -40,6 +44,12 @@ object OpBreakBlock : SpellAction {
                 !blockstate.isAir
                 && blockstate.getDestroySpeed(env.world, pos) >= 0f // fix being able to break bedrock &c
                 && IXplatAbstractions.INSTANCE.isCorrectTierForDrops(tier, blockstate)
+                && IXplatAbstractions.INSTANCE.isBreakingAllowed(
+                    env.world,
+                    pos,
+                    blockstate,
+                    env.castingEntity as? ServerPlayer
+                )
             ) {
                 env.world.destroyBlock(pos, true, env.castingEntity)
             }
